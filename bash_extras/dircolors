@@ -1,0 +1,51 @@
+#0   = default colour
+#1   = bold
+#4   = underlined
+#5   = flashing text
+#7   = reverse field
+
+#31  = red
+#32  = green
+#33  = orange
+#34  = blue
+#35  = purple
+#36  = cyan
+#37  = grey
+
+#40  = black background
+#41  = red background
+#42  = green background
+#43  = orange background
+#44  = blue background
+#45  = purple background
+#46  = cyan background
+#47  = grey background
+
+#90  = dark grey
+#91  = light red
+#92  = light green
+#93  = yellow
+#94  = light blue
+#95  = light purple
+#96  = turquoise
+
+#100 = dark grey background
+#101 = light red background
+#102 = light green background
+#103 = yellow background
+#104 = light blue background
+#105 = light purple background
+#106 = turquoise background
+
+### LS AUTOCOLOR
+#alias ls='ls --color'
+
+#LS_COLORS="di=1:fi=0:ln=31:pi=5:so=5:bd=5:cd=5:or=31:mi=0:ex=35:*.rpm=90:jpg=35"
+#LS_COLORS="di=01;34:ln=00;30;43:pi=00;35;47:do=00;30;42:bd=00;93:cd=00;93:or=01;36;41:so=01;30;41:su=00;33:sg=00;33:ow=00;37:ex=01;31:mi=01;31;37:*.jpg=00;35:*.py=04;95:*.cpp=04;90:*.c=04;90:*.html=92:*.css=32"
+
+LS_COLORS="di=001;034:fi=000:ln=004;032:pi=004;036:so=004;033:bd=001;093;047:or=005;035;041:mi=005;035;041:"
+LS_COLORS=$LS_COLORS"*.py=035:*.cpp=033:*.c=033:"
+LS_COLORS=$LS_COLORS"*.html=036:*.css=036:"
+LS_COLORS=$LS_COLORS"*.key=031:*.crt=031:*.csr=031:*.pem=031:"
+LS_COLORS=$LS_COLORS"*.jpg=035:*.png=035:*.gif=035:"
+LS_COLORS=$LS_COLORS"*.java=91:*.class=31:"
