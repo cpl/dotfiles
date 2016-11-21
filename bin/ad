@@ -1,0 +1,2 @@
+#!/bin/bash
+echo "alias $1='cd `pwd`'" >> ~/.bash_extras/cdvar
