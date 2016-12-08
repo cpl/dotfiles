@@ -13,6 +13,7 @@ alias gstat='git status'
 alias gdiff='git-diff'
 alias glog='git log'
 alias gls='git-ls-files'
+alias ggraph='git log --pretty=format:'%h %s' --graph'
 
 # RELOAD
 alias reload='source ~/.bash_profile'
