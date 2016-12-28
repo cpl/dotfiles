@@ -47,6 +47,9 @@ alias sf='screenfetch'
 # NANO
 alias nano='nano -z'
 
+# VIM
+alias :q='exit'
+
 # QUICK
 alias c='clear'
-alias e='nano'
+alias e='vim'
