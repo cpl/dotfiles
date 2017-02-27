@@ -4,7 +4,6 @@ alias ll='ls -l'
 alias la='ls -A'
 alias lh='ls -Ahl'
 alias ld='ls -dhl .*'
-alias lj='ls -l *.java'
 
 # GIT
 alias gpush='git push'

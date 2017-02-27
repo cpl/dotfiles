@@ -1,4 +1,4 @@
 # PATH
 
 # DEFAULTS
-export EDITOR='nano'
+export EDITOR='vim'
