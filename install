@@ -1,0 +1,4 @@
+ln -s bash_profile ~/.bash_profile
+ln -s bashrc ~/.bashrc
+ln -s bin/ ~/.bin
+ln -s bash_extras/ ~/.bash_extras

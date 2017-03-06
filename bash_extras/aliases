@@ -25,6 +25,10 @@ alias aupgrade='sudo apt-get upgrade'
 alias pupdate='sudo pacman -Syu'
 alias puupdate='sudo pacman -Syyu'
 
+# BREW
+alias bupdate='brew update'
+alias bupgrade='brew upgrade'
+
 # CD and DIR
 alias mkdir='mkdir -pv'
 
