@@ -4,12 +4,12 @@ set -v
 
 mkdir backups
 
-mv ~/.bash_profile backups/
-mv ~/.bashrc backups/
-mv ~/.bash_extras backups/
-mv ~/.bin backups/
+mv ~/.bash_profile `pwd`/backups/
+mv ~/.bashrc `pwd`/backups/
+mv ~/.bash_extras `pwd`/backups/
+mv ~/.bin `pwd`/backups/
 
-ln -s bash_profile ~/.bash_profile
-ln -s bashrc ~/.bashrc
-ln -s bin/ ~/.bin
-ln -s bash_extras/ ~/.bash_extras
+ln -s `pwd`/bash_profile ~/.bash_profile
+ln -s `pwd`/bashrc ~/.bashrc
+ln -s `pwd`/bin/ ~/.bin
+ln -s `pwd`/bash_extras/ ~/.bash_extras
