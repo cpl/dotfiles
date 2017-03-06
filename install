@@ -1,3 +1,14 @@
+#!/usr/bin/bash
+
+set -v
+
+mkdir backups
+
+mv ~/.bash_profile backups/
+mv ~/.bashrc backups/
+mv ~/.bash_extras backups/
+mv ~/.bin backups/
+
 ln -s bash_profile ~/.bash_profile
 ln -s bashrc ~/.bashrc
 ln -s bin/ ~/.bin
